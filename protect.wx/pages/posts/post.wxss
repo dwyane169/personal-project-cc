@@ -1,0 +1,7 @@
+@import "post-item/post-template.wxss";
+
+swiper{
+  height: 600rpx;
+}
+
+

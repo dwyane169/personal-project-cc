@@ -1,0 +1,5 @@
+/* pages/movies/movies.wxss */
+@import "hotMovie/hotMovie-template.wxss";
+.container{
+  background-color: #999;
+}

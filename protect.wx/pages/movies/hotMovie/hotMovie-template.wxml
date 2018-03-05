@@ -1,0 +1,20 @@
+<template name="hotMovie">
+  <view class='hotMovie-container'>
+    <view class='hotImg'>
+        <image class="hot-img" src='{{img}}'></image>
+    </view>
+    <view class='hotInfo'>
+      <view class='hotTitle'>
+        <text class='title'>{{nm}}</text>
+        <view class='if3d' wx:if="{{imax}}">3DIMX</view>
+      </view>
+      <view class='hotType'>{{cat}}</view>
+      <view class='hotActor'>{{dir}}</view>
+      <view class='hotNum'>{{showInfo}} </view>
+    </view>
+    <view class='hotBuy'>
+      <view class='hot-point'>{{sc}}</view>
+      <view class='hot-buy'>购买</view>
+    </view>
+  </view>
+</template>

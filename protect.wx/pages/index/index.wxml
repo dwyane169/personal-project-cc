@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <image class='user_img' src='/images/avatar/2.png'></image>
+    <text>Hello</text>
+    <view class='button' bindtap="onTap" >
+      <text>开 始</text>
+    </view>
+</view>

@@ -1,0 +1,16 @@
+.user_img{
+  width: 250rpx;
+  height: 250rpx;
+  margin-top: 200rpx;
+  margin-bottom: 100rpx;
+}
+.button{
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-top: 150rpx;
+}
+/* .button:hover{
+  background-color: #333;
+  color: #f5f5f5;
+} */

@@ -1,0 +1,7 @@
+<!--pages/movies/movies.wxml-->
+<import src="hotMovie/hotMovie-template.wxml" />
+<block wx:for="{{films}}" wx:for-item="item">
+  <view catchtap="detailMovie" data-movieId="{{item.id}}">
+    <template is="hotMovie" data="{{...item}}" />
+  </view>
+</block>
