@@ -3,7 +3,7 @@ const css = "myStyle";
 
 //为元素添加 或者 删除事件
 var EventUtil = {
-	addHandler: function(element, type, handler,flag){
+	addHandler: function(element, type, handler,flag){  
 		flag = (flag == undefined)?"false":flag;
 		if (element.addEventListener){
 			element.addEventListener(type,handler,flag);

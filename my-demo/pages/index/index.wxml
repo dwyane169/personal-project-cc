@@ -1,0 +1,18 @@
+<view class='demo-container'>
+    <view class='demo' bindtap='tab1'>选项卡1</view>
+    <view class='demo' bindtap='tab2'>选项卡2</view>
+    <view class='demo' bindtap='anchor'>anchor : 锚点定位</view>
+    <view class='demo' bindtap='pulldown'>pulldown : 下拉刷新</view>
+    <view class='demo' bindtap='pullUpOrDown' style='font-size:30rpx'>pullUpOrDown : 顶部重新加载，底部加载</view>
+    <view class='demo' bindtap='star'>星星评分</view>
+    <view class='demo' bindtap='num'>商品添加减少按钮</view>
+    <view class='demo' bindtap='all'>全选按钮</view>
+    <view class='demo' bindtap='form'>表单</view>
+    <view class='demo' bindtap='noseam'>水平无缝滚动</view>
+    <view class='demo' bindtap='noseam2'>垂直无缝滚动</view>
+    <view class='demo' bindtap='clock'>时钟</view>
+    <view class='demo' bindtap='clock2'>时钟2</view>
+    <view class='demo' bindtap='clock3'>画布做的时钟</view>
+    <view class='demo' bindtap='touch'>触摸动画1</view>
+    <view class='demo' bindtap='menu'>扩展菜单特效</view>
+</view>

@@ -1,0 +1,2 @@
+<view class="ripple" style="{{rippleStyle}}"></view>
+<view class="demo-container" bindtouchstart="containerTap"></view>
